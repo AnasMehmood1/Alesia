@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 85vh;
+
+    background-image: url("image/girl-sitting-chair-holding-gray-backpack_229770-476.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.logo h2 {
+    font-size: 25px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul {
+    margin-right: 350px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.icon ul span {
+    font-size: 10px;
+}
+
+.icon ul {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.heading {
+    margin: 245px 0px 60px 197px;
+}
+
+.heading h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 30px 0px 0px 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-2 {
+
+    margin-left: -93px;
+    margin-right: 145px;
+}
+
+.text h2 {
+    font-size: 35px;
+    padding: 12px 12px;
+    text-transform: uppercase;
+}
+
+.text p {
+    margin-bottom: 12px;
+}
+
+.text span {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.left {
+    margin-left: 50px;
+    text-align: right;
+}
+
+.left h2 {
+    font-size: 35px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.left p {
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+
+.left span {
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.card {
+    margin-right: 20px;
+    flex-basis: 5%;
+    margin-bottom: 50px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+padding: 0px 70px;
+}
+
+
+.col-left {
+    background-image: url("image/young-woman-tying-her-shoelaces-outdoors-training-road_1268-17537.jpg");
+    background-size: cover;
+    background-position-y: -22px;
+    width: 540px;
+    height: 283px;
+    background-repeat: no-repeat;
+}
+
+.col-left h2 {
+    margin: 100px 1px 12px 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: black;
+    margin: 12px 0px 0px 58px;
+    color: white;
+}
+
+.col-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 278px;
+    margin-top: -15px;
+    padding-left: 12px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .1);
+}
+
+.col-right h2 {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.email input {
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: #ffffff;
+}
+
+
+.fx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.item {
+    flex-basis: 25%;
+    padding-left: 12px;
+ 
+}
+.image-1{
+    background-image: url("image/blog-1.avif");
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+}
+.date{
+    border-bottom: 2px solid rgb(253, 253, 253);
+    border-right:2px solid rgb(253, 253, 253); 
+    display: inline-block;
+    padding: 13px 13px 8px 15px;
+}
+.date span{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date p{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.image-2{
+    background-image: url("image/blog-2.avif");
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+}
+.image-3{
+    background-image: url("image/blog-3.avif");
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+}
+.image-4{
+    background-image: url("image/high-fashion-portrait-young-elegant-blonde-woman-black-wool-hat-wearing-oversize-white-fringe-poncho-with-long-grey-dress_273443-3799.avif");
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+}
+.item h2{
+    margin: 18px 0px;
+    font-size: 20px;
+}
+.rd{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+}
+.footer-logo h2{
+    margin: 21px 0px 29px 39px;
+    font-size: 35px;
+  }
+  .footer-logo p{
+    margin-left: 20px;
+  }
+  .info ul li{
+    padding-top: 10px;
+list-style: none;
+font-size: 10px;
+  }
+  .info{
+    margin-top: -80px;
+  }
+  .account{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .account ul li{
+padding-top: 10px;
+list-style: none;
+font-size: 10px;
+  }
+.help {
+    margin-top: -80px;
+}
+  .help ul li{
+padding-top: 10px;
+list-style: none;
+font-size: 10px;
+  }
+  .email-1{
+    margin-right: 80px;
+  }
+.email-1 input{
+width: 200px;
+height: 30px;
+padding-left: 12px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 3px solid black;
+margin-bottom: 12px;
+
+}
+.email-1 ul{
+    list-style: none;
+}
+.email-1 ul li{
+    display: inline-block;
+    font-size: 22px;
+    padding-right: 12px;
+}
+ 
+
+

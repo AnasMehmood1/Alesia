@@ -1,0 +1,103 @@
+.menu  ul {
+   display: flex;
+margin-left: 30px;
+margin-bottom: 12px;
+    
+}
+.logo{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+}
+.logo h2{
+    font-size: 35px;
+}
+nav{
+    display: block;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+.navbar{
+    background-image: url("image/beautiful-woman-waving-hair-smiling-stylish-apparel-wearing-denim-jacket-yellow-top-fashion-trend-summer-style-happy-positive-mood-sunny-day-sunrise-street-fashion-blue-sunglasses_285396-4656.avif");
+    background-size: cover;
+  width: 503px;
+  height: 511px;
+    background-position-x: left -242px;
+    background-position-y: top -1px;
+}
+.heading{
+    display: inline;
+ 
+}
+.heading h2{
+    letter-spacing: 0px;
+    padding-left: 38px;
+    margin-top: 113px;
+    
+ 
+}   
+.btn{
+    margin-left: 120px;
+}
+.text{
+    margin-left: 126px;
+    margin-bottom: 76px;
+}
+.row{
+   
+    flex-direction: column;
+}
+.card{
+    flex-direction: column;
+}
+.row-1{
+    display: flex;
+    flex-direction: column;
+}
+.col-left{
+    margin-left: 194px;
+}
+.news-letter h2{
+    margin-left: 180px;
+    font-size: 20px;
+}
+.news-letter p{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 13px;
+}
+.email{
+    padding-right: 89px;
+}
+.fx{
+    display: flex;
+margin-left: 30px;
+    flex-direction: column;
+}
+.rd{
+    margin-bottom: 12px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid gray;
+}
+.info{
+   align-items: left
+;
+    margin-top: 50px;
+}
+.help{
+    margin-top: 50px;
+}
+.account{
+    margin-top: 50px;
+}
+.email-1 ul{
+margin-bottom: 20px;
+}
